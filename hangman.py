@@ -2,11 +2,11 @@ import random
 import time
 
 # Initial Steps to invite in the game:
-print("\nWelcome to Hangman game by DataFlair\n")
+print("\nWelcome to MARVEL Hangman game by DataFlair\n")
 name = input("Enter your name: ")
 print("Hello " + name + "! Best of Luck!")
 time.sleep(2)
-print("The game is about to start!\n Let's play Hangman!")
+print("The game is about to start!\n Let's play Hangman! \n Guess the marvel character ")
 time.sleep(3)
 
 def main():
@@ -16,7 +16,7 @@ def main():
     global already_guessed
     global length
     global play_game
-    words_to_guess = ["january","border","image","film","promise","kids","lungs","doll","rhyme","damage","plants"]
+    words_to_guess = ["spiderman","ironman","hulk","thor","wolverin","vision","wanda","antman"]
     word = random.choice(words_to_guess)
     length = len(word)
     count = 0
